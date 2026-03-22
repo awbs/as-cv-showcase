@@ -1,6 +1,7 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { Mail, MapPin } from "lucide-react";
+import profilePhoto from "@/assets/profile-photo.png";
 
 const ContactSection = () => {
   const ref = useRef(null);
