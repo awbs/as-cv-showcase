@@ -1,12 +1,11 @@
-import { motion } from "framer-motion";
-import { useInView } from "framer-motion";
+import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 
 const stats = [
-  { value: "8+", label: "Years Experience" },
-  { value: "23", label: "Projects Delivered" },
-  { value: "4", label: "Patents Filed" },
-  { value: "3", label: "Publications" },
+  { value: "7+", label: "Years in Satellite" },
+  { value: "MEng", label: "Aerospace, Swansea" },
+  { value: "1st", label: "Class Honours" },
+  { value: "3", label: "Roles at Viasat" },
 ];
 
 const AboutSection = () => {
@@ -23,9 +22,9 @@ const AboutSection = () => {
         >
           <p className="font-mono text-sm tracking-widest uppercase text-accent mb-4">About</p>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8 leading-tight">
-            Engineering precision,
+            From stress analysis
             <br />
-            from concept to certification.
+            to satellite capacity.
           </h2>
         </motion.div>
 
@@ -37,14 +36,15 @@ const AboutSection = () => {
             transition={{ duration: 0.7, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
           >
             <p>
-              With a background spanning structural analysis, computational fluid dynamics, 
-              and propulsion system design, I bring a multidisciplinary approach to aerospace 
-              engineering challenges.
+              Starting with a Year in Industry at Airbus Defence & Space doing mechanical 
+              analysis on spacecraft structures, I moved into the satellite communications 
+              world at Inmarsat (now Viasat), progressing through graduate, systems architecture, 
+              and capacity forecasting roles.
             </p>
             <p>
-              Currently focused on next-generation sustainable aviation concepts and 
-              advanced composite structures, working at the intersection of performance 
-              optimization and regulatory compliance.
+              I specialise in building Python-based tools and models — from real-time terminal 
+              monitoring dashboards and self-service link budget calculators to geospatial 
+              demand forecasting using H3 grids and beam footprint data.
             </p>
           </motion.div>
 
