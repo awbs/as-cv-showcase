@@ -29,10 +29,6 @@ const ContactSection = () => {
               <Mail className="w-4 h-4 text-hero-accent" />
               <span className="text-sm">adamskitt@btinternet.com</span>
             </a>
-            <a href="tel:07969106777" className="flex items-center gap-3 text-hero-foreground hover:text-hero-accent transition-colors duration-200">
-              <Phone className="w-4 h-4 text-hero-accent" />
-              <span className="text-sm">07969-106-777</span>
-            </a>
             <div className="flex items-center gap-3 text-hero-foreground">
               <MapPin className="w-4 h-4 text-hero-accent" />
               <span className="text-sm">London, United Kingdom</span>
