@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const links = [
   { label: "About", href: "#about" },
   { label: "Skills", href: "#skills" },
-  { label: "Projects", href: "#projects" },
+  { label: "Experience", href: "#experience" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -30,7 +30,7 @@ const Navbar = () => {
     >
       <div className="container max-w-5xl px-6 flex items-center justify-between">
         <a href="#" className="font-mono text-sm tracking-wider text-hero-foreground hover:text-hero-accent transition-colors">
-          AE<span className="text-hero-accent">.</span>
+          AS<span className="text-hero-accent">.</span>
         </a>
         <div className="hidden sm:flex items-center gap-8">
           {links.map((link) => (

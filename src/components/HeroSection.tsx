@@ -5,7 +5,6 @@ import { ChevronDown } from "lucide-react";
 const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background */}
       <div className="absolute inset-0">
         <img src={heroBg} alt="" className="w-full h-full object-cover opacity-40" />
         <div className="absolute inset-0 bg-hero" />
@@ -18,7 +17,7 @@ const HeroSection = () => {
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
         >
           <p className="font-mono text-sm tracking-widest uppercase text-hero-accent mb-6">
-            Aerospace Engineer
+            Aerospace Engineer · Satellite Systems
           </p>
         </motion.div>
 
@@ -28,9 +27,9 @@ const HeroSection = () => {
           animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
           transition={{ duration: 0.8, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
         >
-          Designing what
+          Adam
           <br />
-          <span className="text-gradient">flies beyond.</span>
+          <span className="text-gradient">Skitt.</span>
         </motion.h1>
 
         <motion.p
@@ -39,8 +38,8 @@ const HeroSection = () => {
           animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
           transition={{ duration: 0.8, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
         >
-          Structural analysis, propulsion systems, and aerodynamic design — 
-          turning complex engineering challenges into elegant, flight-ready solutions.
+          Capacity forecasting, network simulation, and satellite systems engineering — 
+          from link budgets to geospatial analytics at Viasat + Inmarsat.
         </motion.p>
 
         <motion.div
@@ -50,10 +49,10 @@ const HeroSection = () => {
           transition={{ duration: 0.6, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}
         >
           <a
-            href="#projects"
+            href="#experience"
             className="inline-flex items-center gap-2 px-6 py-3 bg-accent text-accent-foreground font-medium rounded-sm hover:brightness-110 active:scale-[0.97] transition-all duration-200"
           >
-            View Projects
+            View Experience
           </a>
           <a
             href="#contact"
@@ -64,7 +63,6 @@ const HeroSection = () => {
         </motion.div>
       </div>
 
-      {/* Scroll indicator */}
       <motion.div
         className="absolute bottom-8 left-1/2 -translate-x-1/2"
         animate={{ y: [0, 8, 0] }}

@@ -3,20 +3,20 @@ import { useRef } from "react";
 
 const skillCategories = [
   {
-    title: "Analysis & Simulation",
-    skills: ["FEA (ANSYS, Nastran)", "CFD (Fluent, OpenFOAM)", "Thermal Analysis", "Fatigue & Damage Tolerance"],
+    title: "Programming & Data",
+    skills: ["Python (Data Analysis)", "SQL", "Jupyter Notebooks", "Apache Airflow"],
   },
   {
-    title: "Design & CAD",
-    skills: ["CATIA V5/V6", "SolidWorks", "Siemens NX", "GD&T / Tolerancing"],
+    title: "Cloud & Infrastructure",
+    skills: ["GCP (BigQuery, App Engine)", "AWS", "Docker", "Git"],
   },
   {
-    title: "Materials & Structures",
-    skills: ["Composite Laminates", "Metallic Structures", "Bonded Joints", "Additive Manufacturing"],
+    title: "Satellite & RF",
+    skills: ["Link Budget Analysis", "Capacity Forecasting", "Beam Footprint Modelling", "RF Performance Analysis"],
   },
   {
-    title: "Tools & Programming",
-    skills: ["MATLAB / Simulink", "Python (NumPy, SciPy)", "DOORS (Requirements)", "Git / Version Control"],
+    title: "Engineering Tools",
+    skills: ["MATLAB / Simulink", "Femap / Nastran", "Isight", "Jira / Microsoft Office"],
   },
 ];
 
