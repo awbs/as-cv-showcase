@@ -1,6 +1,7 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { Mail, MapPin } from "lucide-react";
+import profilePhoto from "@/assets/profile-photo.png";
 
 const ContactSection = () => {
   const ref = useRef(null);
@@ -8,7 +9,15 @@ const ContactSection = () => {
 
   return (
     <section id="contact" className="py-24 md:py-32 bg-hero text-hero-foreground" ref={ref}>
-      <div className="container max-w-5xl px-6">
+      <div className="container max-w-5xl px-6 flex flex-col md:flex-row items-start gap-12">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.95, filter: "blur(4px)" }}
+          animate={inView ? { opacity: 1, scale: 1, filter: "blur(0)" } : {}}
+          transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1], delay: 0.15 }}
+          className="w-40 h-40 md:w-52 md:h-52 rounded-full overflow-hidden ring-2 ring-hero-accent/30 flex-shrink-0"
+        >
+          <img src={profilePhoto} alt="Adam Skitt" className="w-full h-full object-cover object-top" />
+        </motion.div>
         <motion.div
           initial={{ opacity: 0, y: 20, filter: "blur(4px)" }}
           animate={inView ? { opacity: 1, y: 0, filter: "blur(0)" } : {}}
