@@ -1,6 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
 
 const ContactSection = () => {
   const ref = useRef(null);
@@ -28,10 +28,6 @@ const ContactSection = () => {
             <a href="mailto:adamskitt@btinternet.com" className="flex items-center gap-3 text-hero-foreground hover:text-hero-accent transition-colors duration-200">
               <Mail className="w-4 h-4 text-hero-accent" />
               <span className="text-sm">adamskitt@btinternet.com</span>
-            </a>
-            <a href="tel:07969106777" className="flex items-center gap-3 text-hero-foreground hover:text-hero-accent transition-colors duration-200">
-              <Phone className="w-4 h-4 text-hero-accent" />
-              <span className="text-sm">07969-106-777</span>
             </a>
             <div className="flex items-center gap-3 text-hero-foreground">
               <MapPin className="w-4 h-4 text-hero-accent" />
