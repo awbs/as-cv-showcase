@@ -2,7 +2,7 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 
 const stats = [
-  { value: "7+", label: "Years in Satellite" },
+  { value: "5+", label: "Years in Satellite" },
   { value: "MEng", label: "Aerospace, Swansea" },
   { value: "1st", label: "Class Honours" },
   { value: "3", label: "Roles at Viasat" },
