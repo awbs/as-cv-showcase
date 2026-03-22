@@ -58,13 +58,13 @@ const ExperienceSection = () => {
           {experiences.map((exp, i) =>
           <motion.article
             key={exp.role + exp.company}
-            className="relative pl-8 border-l-2 border-border"
+            className="relative pl-8"
             initial={{ opacity: 0, y: 20, filter: "blur(4px)" }}
             animate={inView ? { opacity: 1, y: 0, filter: "blur(0)" } : {}}
             transition={{ duration: 0.6, delay: 0.1 + i * 0.1, ease: [0.16, 1, 0.3, 1] }}>
             
               {/* Timeline dot */}
-              <div className="absolute -left-[7px] top-1 w-3 h-3 rounded-full bg-accent border-2 border-background my-0" />
+              <div className="absolute left-0 top-1.5 w-3 h-3 rounded-full bg-accent" />
 
               <div className="mb-1">
                 <span className="font-mono text-xs tracking-wider text-accent">{exp.period}</span>
