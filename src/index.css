@@ -72,6 +72,6 @@
 
 @layer utilities {
   .text-gradient {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-accent to-amber-300;
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-accent to-orange-300;
   }
 }
