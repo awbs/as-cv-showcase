@@ -55,14 +55,6 @@ const HeroSection = () => {
             View Experience
           </a>
           <a
-            href="/Adam_Skitt_CV.pdf"
-            download
-            className="inline-flex items-center gap-2 px-6 py-3 border border-hero-muted/30 text-hero-foreground font-medium rounded-sm hover:border-hero-accent/50 active:scale-[0.97] transition-all duration-200"
-          >
-            <Download className="w-4 h-4" />
-            Download CV
-          </a>
-          <a
             href="#contact"
             className="inline-flex items-center gap-2 px-6 py-3 text-hero-muted font-medium rounded-sm hover:text-hero-foreground active:scale-[0.97] transition-colors duration-200"
           >
