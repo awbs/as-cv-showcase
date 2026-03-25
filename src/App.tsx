@@ -34,7 +34,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/as-cv-showcase/">
         <AppRoutes />
       </BrowserRouter>
     </TooltipProvider>
