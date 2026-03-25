@@ -1,8 +1,11 @@
+[![Deploy to GitHub Pages](https://github.com/awbs/as-cv-showcase/actions/workflows/chat-deploy-pages.yml/badge.svg)](https://github.com/awbs/as-cv-showcase/actions/workflows/chat-deploy-pages.yml)
+
 # 👋 Adam Skitt — Portfolio
 
 A personal portfolio showcasing my experience, skills and projects across engineering, data, and geospatial analysis.
 
 🔗 **Live site:** https://awbs.github.io/as-cv-showcase/
+
 📄 **CV:** Available on request
 
 ---
@@ -24,7 +27,7 @@ Designed to be simple, fast, and easy to navigate.
 
 - **Framework:** React + Vite  
 - **Language:** TypeScript  
-- **Styling:** (add Tailwind / CSS / etc if relevant)  
+- **Styling:** CSS/Tailwind
 - **Deployment:** GitHub Pages  
 
 ---
